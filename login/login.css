@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+#title{
+    color:yellow;
+    text-align: center;
+}
+
+
+
+form{
+    width:300px;
+    height: 300px;
+    position: relative;
+}
+
+form input{
+    width:100%;
+    background: transparent;
+    border:2px solid yellow;
+    color:yellow;
+    border-radius: 10px;
+    outline:none;
+    padding:0 10px;
+    font-size: 15px;
+      margin-top:20px;
+    margin-bottom:10px;
+}
+::placeholder{
+    color:white;
+}
+#userName{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    width:300px;
+    height: 30px;
+    border-bottom-color:yellow;
+   border-width: 3px;
+}
+#password{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    width:300px;
+    height: 30px;
+    border-bottom-color:yellow;
+    border-width: 3px;
+}
+#btn-1{
+    width:100px;
+    margin-top:50px;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+#para{
+    color:white;
+}
+#btn-2{
+    background: transparent;
+    border:2px solid yellow;
+    color:yellow;
+    border-radius: 10px;
+    outline:none;
+    padding:0 10px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+#btn-2:hover{
+    border:2px solid white;
+    color:aqua
+}
+#btn-1:hover{
+    border:2px solid white;
+    color:aqua
+}
+
